@@ -52,3 +52,6 @@ textarea{width:100%;resize:vertical;border:1px solid #dfe5d9;background:#fcfdf9;
 .field-profile-summary{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:15px;padding:12px;border-radius:12px;background:#eff4e9;color:#426b49;font-size:12px;font-weight:700}
 .field-profile-summary .text-button{margin-left:auto}
 @media(max-width:520px){.field-chat-actions>*{flex:1}.field-profile-summary .text-button{margin-left:0}}
+
+/* Farmer-first voice workflow */
+.voice-card .form-footer{align-items:center;flex-wrap:wrap}.voice-card .form-footer .secondary-button{margin-top:0}.voice-card .mic-button{min-height:76px}.voice-card .mic-button.listening{background:#a64b3f}
