@@ -6,11 +6,13 @@ A multilingual, farmer-first voice diary and farm companion prototype.
 - One-tap speech entry. The browser ends the recording after the utterance; recognized voice notes are categorized and saved automatically.
 - Hindi and English farmer-facing interface, with speech locale choices for other supported Indian languages.
 - Rule-based splitting and classification of common activity, expense, observation and crop-damage phrases. Expense amounts are extracted when recognized.
-- Farm profile fields for crop and acreage.
+- Guided farm-profile conversation by text or voice, with crop, acreage, crop-density and symptom notes.
+- Crop-damage reports with an optional photo attachment (compressed-size limit enforced by the app) and a saved image preview.
+- Cautious field notes based on farmer-entered crop density and symptoms; these are prompts to seek local expert advice, not diagnoses.
 - History stored in IndexedDB on the current browser/device, with a localStorage fallback.
 - Installable PWA metadata and a service worker that caches the app shell and same-origin assets for a basic offline experience.
 - Monthly expense report with daily totals.
-- Farmer-created reminders with browser notifications where supported.
+- Farmer-created reminders with browser notifications where supported; while the app is open, due reminders are checked every minute.
 - On-demand local weather using browser geolocation and the free Open-Meteo forecast API. Location is requested only after the farmer taps the weather button.
 - JSON backup download and restore for moving records between browsers/devices.
 - Responsive layout for phone and desktop.
