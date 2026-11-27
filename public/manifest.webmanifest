@@ -1,0 +1,19 @@
+{
+  "name": "Khet Ka Saathi",
+  "short_name": "Khet Saathi",
+  "description": "आपका आसान खेती साथी",
+  "lang": "hi",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f7ef",
+  "theme_color": "#2f6844",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
