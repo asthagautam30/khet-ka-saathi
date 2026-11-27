@@ -8,7 +8,7 @@ A multilingual, voice-first farm diary prototype for Indian farmers.
 - Split simple combined updates into separate records; extract common numeric expense amounts and calculate expense totals.
 - Review the transcript and detected categories before saving.
 - Speak a short confirmation where browser speech synthesis supports the selected language.
-- Save a basic field profile, add crop-damage notes with a small photo, and export records as JSON.
+- Collect the basic farm profile through a short conversation, asking only for missing crop or field-area details; add crop-damage notes with a small photo and export records as JSON.
 - Show cautious reminders based on farmer-entered crop observations and planting-density notes.
 
 ## Important limitations
@@ -17,7 +17,7 @@ A multilingual, voice-first farm diary prototype for Indian farmers.
 - The interface is currently translated for Hindi and English. Other listed languages can be selected as speech-recognition locales, but their interface labels are not all translated yet.
 - Automatic categorization uses keyword rules. Farmers should review the transcript and category before saving; ambiguous sentences can be misclassified.
 - The app does not diagnose crop disease, calculate fertilizer dosage, or replace a soil test or advice from a local Krishi Vigyan Kendra (KVK)/agriculture officer.
-- Records are stored only in the current browser on the current device. They are not synced to a cloud account. Clearing browser data can remove them. Export records regularly.
+- Records are currently stored only in the current browser on the current device. The app guards against overwriting saved entries with an empty initial state, but records are not yet synced to a cloud account. Clearing browser data can remove them. Export records regularly.
 - Crop-damage records are personal documentation, not official insurance claims or verified evidence.
 
 ## Run locally
