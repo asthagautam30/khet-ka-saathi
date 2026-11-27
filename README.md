@@ -4,7 +4,7 @@ A multilingual, farmer-first voice diary and farm companion prototype.
 
 ## What is included
 - One-tap speech entry. The browser ends the recording after the utterance; recognized voice notes are categorized and saved automatically.
-- Hindi and English farmer-facing interface, with speech locale choices for other supported Indian languages.
+- Hindi-first interface with speech locale choices for supported Indian languages. The selected locale changes speech recognition; not every screen is translated into every language.
 - Rule-based splitting and classification of common activity, expense, observation and crop-damage phrases. Expense amounts are extracted when recognized.
 - Guided farm-profile conversation by text or voice, with crop, acreage, crop-density and symptom notes.
 - Crop-damage reports with an optional photo attachment (compressed-size limit enforced by the app) and a saved image preview.
@@ -24,7 +24,7 @@ A multilingual, farmer-first voice diary and farm companion prototype.
 - Weather is an estimate for the device's location, not a farm-station measurement or an agricultural warning service.
 - Speech recognition and classification are best-effort. The classifier is keyword-based, can split or categorize a sentence incorrectly, and should not be described as a full AI understanding model. Review important records.
 - This prototype does not diagnose crop disease or prescribe fertilizer/pesticide doses. Use a soil test and local Krishi Vigyan Kendra/agriculture officer for crop-specific advice.
-- The interface is currently Hindi-first with English labels not yet fully localized throughout every panel. Other selected locales affect speech recognition, not complete translation.
+- The interface is currently Hindi-first. Other selected locales affect speech recognition; they do not translate every screen.
 - Crop-damage records are personal documentation, not official insurance claims or verified evidence.
 
 ## Run locally
